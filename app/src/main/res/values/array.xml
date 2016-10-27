@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="filter_order_by_labels">
+        <item>@string/newest_label</item>
+        <item>@string/oldest_label</item>
+        <item>@string/relevance_label</item>
+    </string-array>
+    <string-array name="filter_order_by_values">
+        <item>@string/newest</item>
+        <item>@string/oldest</item>
+        <item>@string/relevance</item>
+    </string-array>
+
+    <string-array name="news_per_page_labels">
+        <item>@string/news_ten_label</item>
+        <item>@string/news_twenty_label</item>
+        <item>@string/news_thirty_label</item>
+        <item>@string/news_forty_label</item>
+        <item>@string/news_fifty_label</item>
+    </string-array>
+    <string-array name="news_per_page_values">
+        <item>@string/news_ten</item>
+        <item>@string/news_twenty</item>
+        <item>@string/news_thirty</item>
+        <item>@string/news_forty</item>
+        <item>@string/news_fifty</item>
+    </string-array>
+
+    <string-array name="section_labels">
+        <item>@string/section_all_label</item>
+        <item>@string/section_us_news_label</item>
+        <item>@string/section_world_label</item>
+        <item>@string/section_sport_label</item>
+        <item>@string/section_politics_label</item>
+        <item>@string/section_culture_label</item>
+        <item>@string/section_business_label</item>
+        <item>@string/section_lifeandstyle_label</item>
+        <item>@string/section_music_label</item>
+        <item>@string/section_technology_label</item>
+    </string-array>
+    <string-array name="section_values">
+        <item>@string/section_all</item>
+        <item>@string/section_us_news</item>
+        <item>@string/section_world</item>
+        <item>@string/section_sport</item>
+        <item>@string/section_politics</item>
+        <item>@string/section_culture</item>
+        <item>@string/section_business</item>
+        <item>@string/section_lifeandstyle</item>
+        <item>@string/section_music</item>
+        <item>@string/section_technology</item>
+    </string-array>
+</resources>

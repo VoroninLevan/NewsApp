@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/filters_title">
+
+    <ListPreference
+        android:defaultValue="@string/filter_order_by_default"
+        android:entries="@array/filter_order_by_labels"
+        android:entryValues="@array/filter_order_by_values"
+        android:key="@string/filter_order_by_key"
+        android:title="@string/filter_order_by_label" />
+
+    <ListPreference
+        android:defaultValue="@string/news_per_page_default"
+        android:entries="@array/news_per_page_labels"
+        android:entryValues="@array/news_per_page_values"
+        android:key="@string/news_per_page_key"
+        android:title="@string/news_per_page_label" />
+
+    <ListPreference
+        android:defaultValue="@string/section_default"
+        android:entries="@array/section_labels"
+        android:entryValues="@array/section_values"
+        android:key="@string/section_key"
+        android:title="@string/section_label" />
+
+</PreferenceScreen>
